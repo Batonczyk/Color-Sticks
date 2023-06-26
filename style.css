@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sticks {
+  padding: 5px;
+  margin-bottom: 25px;
+}
+
+.title-stick {
+  margin-bottom: 30px;
+  text-align-last: center;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.stick-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  justify-items: center;
+  /* вирівнюю по горизонталі */
+}
+
+.content {
+  padding-top: 30px;
+}
+
+.add-stick {
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 1px solid #32e3c2;
+  border-radius: 5px;
+  outline: transparent;
+  overflow: auto;
+}
+
+.btns {
+  max-width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bstick,
+.edit {
+  display: block;
+  padding: 3px;
+  outline: transparent;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.bstick {
+  background-color: green;
+  color: #fff;
+}
+
+.edit {
+  background-color: red;
+  color: #fff;
+}
+
+.a-1 {
+  padding: 3px;
+  min-width: 100%;
+  height: 150px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
